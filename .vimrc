@@ -28,13 +28,23 @@ Plugin 'tpope/vim-surround'
 Plugin 'cohama/lexima.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'dyng/ctrlsf.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'gregsexton/MatchTag'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'kshenoy/vim-signature'
+Plugin 'kien/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax on
-" color molokai
+"let g:solarized_termtrans=1
+color seoul256
+
 set number
 set tabstop=2
 set shiftwidth=2
@@ -50,8 +60,6 @@ let python_highlight_all = 1
 
 " Configure NERDTree to open when pressing ctr+t
 map <C-t> :NERDTreeToggle<CR>
-" Close vim if NERDTree is the only window open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Remove trailing whitespaces on file save
 autocmd VimEnter * ToggleStripWhitespaceOnSave
 autocmd BufRead,BufNewFile,BufEnter *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4
