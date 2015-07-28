@@ -36,6 +36,7 @@ Plugin 'gregsexton/MatchTag'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'kien/ctrlp.vim'
+Plugin 'digitaltoad/vim-jade'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
