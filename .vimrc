@@ -39,6 +39,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'othree/html5.vim'
+Plugin 'elzr/vim-json'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
