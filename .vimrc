@@ -37,6 +37,8 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'kien/ctrlp.vim'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'wesQ3/vim-windowswap'
+Plugin 'othree/html5.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -66,3 +68,7 @@ autocmd VimEnter * ToggleStripWhitespaceOnSave
 autocmd BufRead,BufNewFile,BufEnter *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 set backspace=indent,eol,start
+
+let mapleader=','
+
+hi Normal ctermbg=NONE guibg=NONE
