@@ -73,4 +73,10 @@ set backspace=indent,eol,start
 
 let mapleader=','
 
+" Clear background
 hi Normal ctermbg=NONE guibg=NONE
+
+"CtrlP Ignore stuff
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+set rnu
