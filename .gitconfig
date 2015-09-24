@@ -1,0 +1,10 @@
+[diff]
+	tool = vimdiff
+[merge]
+  tool=vimdiff
+[user]
+	email = mikevee313@gmail.com
+[difftool]
+	prompt = false
+[alias]
+	d = difftool
