@@ -79,4 +79,14 @@ hi Normal ctermbg=NONE guibg=NONE
 "CtrlP Ignore stuff
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
+"Summarize
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_jslint_args = "--white --nomen --regexp --browser --devel --windows --sloppy --vars --edition=es6"
+
 set rnu

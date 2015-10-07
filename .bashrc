@@ -10,11 +10,15 @@ MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 ## PATH
 PATH="$NPM_PACKAGES/bin:${HOME}/bin:$PATH"
-#postgres
+# postgres
 PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+# golang
+PATH="$GOPATH/bin/:$PATH"
+
 
 # aliases
 alias ls='ls -la'
+alias ducks='du -cks * | sort -rn | head'
 
 # Virtualenv
 export WORKON_HOME="${HOME}/.virtualenvs"
