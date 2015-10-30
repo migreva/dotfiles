@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Colorsublime",
+		"FileDiffs",
+		"Handlebars",
+		"Highlight Whitespaces",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"Jinja2",
+		"JSX",
+		"LESS",
+		"Markdown Extended",
+		"Markdown HTML Preview",
+		"nginx",
+		"Numix Theme",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"Theme - Numix",
+		"TrailingSpaces",
+		"Whitespace"
+	]
+}
