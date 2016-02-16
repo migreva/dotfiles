@@ -41,6 +41,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'othree/html5.vim'
 Plugin 'elzr/vim-json'
 Plugin 'fatih/vim-go'
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -88,5 +89,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_jslint_args = "--white --nomen --regexp --browser --devel --windows --sloppy --vars --edition=es6"
+
+"JSX
+let g:jsx_ext_required = 0
 
 set rnu
