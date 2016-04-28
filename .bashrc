@@ -24,3 +24,9 @@ alias ducks='du -cks * | sort -rn | head'
 export WORKON_HOME="${HOME}/.virtualenvs"
 export MSYS_HOME="/c/msys/1.0"
 source /usr/local/bin/virtualenvwrapper.sh
+
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+export AWS_PROFILE=default
