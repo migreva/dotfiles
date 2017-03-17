@@ -17,20 +17,31 @@
 
 // style the background color of the tree view
 .tree-view {
-  background: url('/Users/mvarano/work/dotfiles/terminal-background-night.jpg');
-  background-size: cover;
+  // background: url('/Users/mvarano/work/dotfiles/terminal-background-night.jpg');
+  // background-size: cover;
   // background-color: whitesmoke;
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
+atom-text-editor:not(.mini), atom-pane, ul.tab-bar, ul.background-message {
   // color: white;
   // background-color: hsl(180, 24%, 12%);
   background: url('/Users/mvarano/work/dotfiles/terminal-background-night.jpg');
   background-size: cover;
+
+  @media (min-aspect-ratio: 1/2) {
+    background-position: bottom;
+  }
 }
+
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
 atom-text-editor::shadow .cursor {
   // border-color: red;
+}
+
+background-tips, ul.background-message {
+  &, & .message {
+    color: white;
+  }
 }
